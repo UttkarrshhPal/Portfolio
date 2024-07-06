@@ -1,6 +1,7 @@
 import React from "react";
 
-import pic from "../assets/photo.avif";
+//import pic from "../assets/photo.avif";
+import pic from "../assets/upload.jpg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -62,7 +63,7 @@ function Home() {
                 rel="noopener noreferrer"
                 style={{ textDecoration: "underline", color: "red" }}
               >
-                  GitHub
+                GitHub
               </a>
               , and I actively share knowledge and solutions on Geeks for Geeks
               under the username
