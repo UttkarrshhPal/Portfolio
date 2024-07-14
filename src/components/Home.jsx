@@ -9,8 +9,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
 //import { FaGithub, FaLeetcode } from "react-icons/fa";
 
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
+import { SiMongodb, SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
@@ -123,7 +122,7 @@ function Home() {
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
               src={pic}
-              className="rounded-full md:w-[450px] md:h-[450px]"
+              className="rounded-2xl md:w-[900px] md:h-[400px]"
               alt=""
             />
           </div>
