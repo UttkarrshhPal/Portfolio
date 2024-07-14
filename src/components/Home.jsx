@@ -7,7 +7,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
-//import { FaGithub, FaLeetcode } from "react-icons/fa";
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -62,10 +62,11 @@ function Home() {
                 rel="noopener noreferrer"
                 style={{ textDecoration: "underline", color: "red" }}
               >
+                {" "}
                 GitHub
               </a>
               , and I actively share knowledge and solutions on Geeks for Geeks
-              under the username
+              under the username{" "}
               <a
                 href="https://auth.geeksforgeeks.org/user/dankrishu"
                 target="_blank"
@@ -84,8 +85,19 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
+                    <a
+                      href="https://leetcode.com/u/slowADsteady/"
+                      target="_blank"
+                    >
+                      <SiLeetcode className="text-2xl cursor-pointer" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.geeksforgeeks.org/user/dankrishu/"
+                      target="_blank"
+                    >
+                      <SiGeeksforgeeks className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
@@ -96,16 +108,16 @@ function Home() {
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://www.youtube.com/" target="_blank">
                       <IoLogoYoutube className="text-2xl cursor-pointer" />
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a href="https://t.me/" target="_blank">
                       <FaTelegram className="text-2xl cursor-pointer" />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className=" space-y-2">
