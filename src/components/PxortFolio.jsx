@@ -5,6 +5,7 @@ import mongoDB from "../assets/mongodb.jpg";
 import express from "../assets/express.png";
 import reactjs from "../assets/reactjs.png";
 import nodejs from "../assets/node.png";
+import PortfolioCard from "./PortfolioCard";
 function PxortFolio() {
   const cardItem = [
     {
@@ -46,33 +47,42 @@ function PxortFolio() {
       <div>
         <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
         <span className=" underline font-semibold">Featured Projects</span>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
-          {cardItem.map(({ id, logo, name }) => (
-            <div
-              className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
-              key={id}
-            >
-              <img
-                src={logo}
-                className="w-[120px] h-[120px] p-1 rounded-full border-[2px]"
-                alt=""
-              />
-              <div>
-                <div className="px-2 font-bold text-xl mb-2">{name}</div>
-                <p className="px-2 text-gray-700">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-              <div className=" px-6 py-4 space-x-3 justify-around">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
-                  Video
-                </button>
-                <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
-                  Source code
-                </button>
-              </div>
-            </div>
-          ))}
+        <div className="flex flex-wrap gap-x-6 my-5">
+          <PortfolioCard
+            imageUrl={
+              "https://utfs.io/f/2e40caa1-cdd1-48de-8fff-288055c3ab07-hooezj.png"
+            }
+            title={"Movie Search App"}
+            description={
+              "A responsive and interactive movie search app designed using ReactJS. Leveraging the OMDB API, it showcases my skills in API integration, state management, and user-friendly interface design."
+            }
+            demoLink={"https://main--bespoke-pony-04c72f.netlify.app//"}
+            projectLink={"https://github.com/UttkarrshhPal/Movie-App"}
+          />
+          <PortfolioCard
+            imageUrl={
+              "https://utfs.io/f/171b7c3c-6c0b-4e07-bf8f-dd6829515efc-hopmt2.png"
+            }
+            title={"Spotify Clone"}
+            description={
+              "A visually engaging Spotify clone that demonstrates my frontend development skills. Created using HTML, CSS, and JavaScript, this project features a custom-built music player interface, playlist management, and seamless transitions, reflecting the look and feel of the original platform.."
+            }
+            demoLink={"https://spotify-clone-utkarsh-pal.netlify.app/"}
+            projectLink={"https://github.com/UttkarrshhPal/Spotify_Clone"}
+          />
+          <PortfolioCard
+            imageUrl={
+              "https://utfs.io/f/bca7e4a9-a7b7-408b-9d6a-55923b780283-hoodjr.png"
+            }
+            title={"Algorithm Visualiser"}
+            description={
+              "An engaging algorithm visualizer designed to make complex concepts accessible. Built with HTML, CSS, and JavaScript, this project showcases my ability to create educational tools with clear, real-time visual representations of sorting, searching, and graph algorithms."
+            }
+            demoLink={"https://splendorous-croquembouche-09ba47.netlify.app/"}
+            projectLink={
+              "https://github.com/UttkarrshhPal/Algorithm-Visualiser"
+            }
+          />
         </div>
       </div>
     </div>

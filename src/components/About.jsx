@@ -9,33 +9,36 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Utkarsh, a passionate Web developer with a keen eye for MERN
-          Stack . With a background in IT, I strive to create impactful and
+          Hello, I'm Utkarsh, a passionate Web developer with a keen eye for
+          MERN Stack . With a background in IT, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
           Education & Training
         </h1>
-        <span>
-          [B.Tech/Information & Communication Technology], [SASTRA University], [2025] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
-        </span>
+        <p>
+          Currently pursueing Bachelors of Technology in Information and
+          Communications Technology from SASTRA Deemed University.
+        </p>
+        <span>Expected to graduate in May 2025.</span>
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
           Skills & Expertise
         </h1>
-        <span>
-          Proficient in [C++ , JavaScript , ReactJS , Python ] Experienced with [Software
-          Tools/Technologies] Strong grasp of [OOPS Concepts]
+        <p>Proficient in C++ , JavaScript , ReactJS , Python.</p>
+        <p>
+          Experienced in software tools/technologies with strong grasp of OOPS
+          Concepts.
+        </p>
+        <p>
           Excellent problem-solving skills Effective communicator and
           collaborator
-        </span>
+        </p>
         <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        {/* <br /> */}
+        {/* <h1 className="text-green-600 font-semibold text-xl">
           Professional Experience
         </h1>
         <span>
@@ -44,10 +47,10 @@ function About() {
           [Company/Organization], [Dates] [Brief description of responsibilities
           and achievements] [Freelance/Contract Work], [Client/Organization],
           [Dates] [Brief description of projects and contributions]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        </span> */}
+        {/* <br />
+        <br /> */}
+        {/* <h1 className="text-green-600 font-semibold text-xl">
           Achievements & Awards
         </h1>
         <span>
@@ -55,7 +58,7 @@ function About() {
           [Organization/Platform], [Year]
         </span>
         <br />
-        <br />
+        <br /> */}
         <h1 className="text-green-600 font-semibold text-xl">
           Mission Statement
         </h1>

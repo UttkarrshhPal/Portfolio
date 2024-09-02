@@ -1,6 +1,6 @@
 import React from "react";
 import html from "../assets/html.png";
-import css from "../assets/css.jpg";
+import css from "../assets/css.png";
 import java from "../assets/java.png";
 import javascript from "../assets/javascript.png";
 import oracle from "../assets/oracle.png";
@@ -54,16 +54,14 @@ function Experiance() {
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Experiance</h1>
-        <p className="  ">
-          I've have in experiance in below technologies.
-        </p>
+        <p className="  ">I've have in experiance in below technologies.</p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
             <div
               className=" flex flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-1 cursor-pointer hover:scale-110 duration-300"
               key={id}
             >
-              <img src={logo} className="w-[150px] rounded-full" alt="" />
+              <img src={logo} className="w-[120px] " alt="" />
               <div>
                 <div className="">{name}</div>
               </div>
